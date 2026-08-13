@@ -17,9 +17,9 @@ html,body{
     width: 100%;
     display: flex;
     gap: 2.5vh;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-end;
-    padding:1vh 4vh;
+    padding:1vh 21vh;
     background-color:transparent;
     font-size: 90%;
     font-weight: lighter;
@@ -35,6 +35,82 @@ html,body{
 
 }
 
-#nav>h4{
-    
+#heading{
+    height: 40%;
+    width: 100%;
+    padding: 3% 8%;
+    background-color: transparent;
+    word-spacing:5%;
+
+}
+#headingh1{
+    font-size: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+#below{
+    background-color: transparent;
+    height: 35%;
+    width: 100%;
+    display: flex;
+}
+#left{
+    background-color: transparent;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding-top: 9vh;
+    padding-left: 15vh;
+    font-size: 11px;
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+}
+#right{
+    background-color: transparent;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3vh;
+    padding-right: 20vh;
+    padding-top: 4vh;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    border-top: 2px solid black;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 10px;
+}
+.elem>a{
+    text-decoration: none;
+    color: black;
+      padding-top: 5px;
+
+}
+.elem>i{
+    opacity: 0;
+}
+.elem>a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+.elem:hover i{
+    opacity: 1;
+    color: crimson;
+}
+
+#last{
+    width: 100%;
+     background-size: contain;
+}
+#last>img{
+    background-size: contain;
+    height: 100%;
+    width: 100%;
 }
